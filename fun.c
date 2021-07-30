@@ -1,22 +1,15 @@
 #include <stdio.h>
-void fun();
-
 int main()
-
 {
-
-printf("\nWelcome to function ");
-
-fun();
-
-printf("\nback to main ");
+ int a=5, b=10 ,c;
+  fun1(&a,&b,&c);
 
 }
 
-void fun()
+void fun1(int*p,int*q,int*c)
 {
-
-printf("\nin fun function ");
+ 
+ c=*p+*q;
+ printf("\n addtion=%d",c);
 
 }
-

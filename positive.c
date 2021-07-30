@@ -1,24 +1,26 @@
-# include <stdio.h>
+#include <stdio.h>
 
 int main()
 
 {
-
- int num;
- 
- printf("enter number :");
- scanf("\n%d",&num);
- 
- if(num>0)
- printf("\n number is positive :");
- 
-  if(num<0)
- printf("\n number is negative :");
-
- if(num==0)
- printf("\n number is neutral :");
- 
- return 0;
- 
- }
-
+  int num;
+  
+  printf("\n Enter number :");
+  scanf("\n%d",&num);
+  
+  if(0<num)
+  
+  printf("\n number is positive :");
+  
+  if(0>num)
+  
+  printf("\n number is negative :");
+  
+  if(0==num)
+  
+  printf("\n number is neutral :");
+  
+  
+  return 0;
+  
+}
